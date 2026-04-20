@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(py --version)",
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Bash(where py *)",
+      "Read(//c/Users/Asus/AppData/Local/Programs/**)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/Asus/miniconda3/**)",
+      "Read(//c/Users/Asus/anaconda3/**)",
+      "Read(//c/Users/Asus/**)",
+      "Bash(npm --version)",
+      "Bash(winget --version)",
+      "Bash(winget install *)",
+      "Bash(/c/Users/Asus/AppData/Local/Programs/Python/Python311/python.exe --version)",
+      "Bash(/c/Users/Asus/AppData/Local/Programs/Python/Python311/python.exe -m pip install --upgrade pip --quiet)",
+      "Bash(/c/Users/Asus/AppData/Local/Programs/Python/Python311/python.exe -m pip install fastapi 'uvicorn[standard]' sqlalchemy aiosqlite python-multipart requests beautifulsoup4 scikit-learn xgboost joblib pandas numpy tldextract 'python-jose[cryptography]' 'passlib[bcrypt]' httpx python-dotenv)",
+      "Bash(/c/Users/Asus/AppData/Local/Programs/Python/Python311/python.exe generate_dataset.py)",
+      "Bash(/c/Users/Asus/AppData/Local/Programs/Python/Python311/python.exe train.py)"
+    ]
+  }
+}

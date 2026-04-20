@@ -1,0 +1,51 @@
+{
+  "features": [
+    "url_length",
+    "num_dots",
+    "num_hyphens",
+    "num_underscores",
+    "num_slashes",
+    "num_at_sign",
+    "num_question_marks",
+    "num_equals",
+    "num_percent",
+    "num_ampersands",
+    "num_digits_in_url",
+    "has_ip_address",
+    "has_https",
+    "url_entropy",
+    "num_subdomains",
+    "domain_length",
+    "has_suspicious_tld",
+    "path_length",
+    "query_length",
+    "has_suspicious_words",
+    "suspicious_word_count",
+    "num_hex_encoding",
+    "has_double_slash_in_path",
+    "has_at_in_netloc",
+    "domain_has_digits",
+    "has_login_form",
+    "has_password_field",
+    "has_iframe",
+    "has_meta_redirect",
+    "num_external_links",
+    "form_action_external",
+    "num_scripts",
+    "has_hidden_elements",
+    "domain_age_days",
+    "has_ssl",
+    "ssl_valid",
+    "domain_resolves"
+  ],
+  "results": {
+    "random_forest": {
+      "accuracy": 1.0,
+      "auc": 1.0
+    },
+    "xgboost": {
+      "accuracy": 1.0,
+      "auc": 1.0
+    }
+  }
+}
